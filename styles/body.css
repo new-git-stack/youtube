@@ -1,0 +1,206 @@
+.body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    border: none;
+    background-color: var(--lighter-gray);
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.main-video-div,
+.suggestions {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-video-div {
+    width: 70%;
+    padding: 10px 20px;
+}
+
+.video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-color: var(--lighter-gray);
+    border-radius: 20px;
+}
+
+.channel-engagement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.channel-engagement p {
+    margin: 0;
+    margin: 5px 20px;
+}
+
+.left-side {
+
+}
+
+.channel-pic {
+    width: 40px;
+    height: 40px;
+    background-color: var(--lighter-gray);
+    border-radius: 20px;
+}
+
+.channel-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.subscribe-button {
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.right-side {
+    display: flex;
+}
+
+.right-side p {
+    margin: 0;
+    z-index: 10;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.like-dislike {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.like-button {
+    border-radius: 0;
+    margin-right: -10px;
+    color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px;
+}
+
+.dislike-button {
+    border-radius: 0;
+    margin-left: -10px;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.share-button,
+.ask-ai-button,
+.more-button {
+    margin-left: 20px;
+    color: white;
+}
+
+.description {
+    background-color: var(--lighter-gray);
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.description p {
+    margin: 0;
+}
+
+.views {
+    padding-bottom: 10px;
+}
+
+.comments-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.sort {
+    display: flex;
+}
+
+.sort-by {
+    margin-left: 50px;
+}
+
+.add-comment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-comment .profile-pic {
+    width: 30px;
+    height: 30px;
+    background-color: var(--lighter-gray);
+}
+
+.add-comment input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+}
+
+.add-comment input::placeholder {
+    color: white;
+}
+
+.suggestions {
+    width: 30%;
+}
+
+.suggestion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    height: 15vh;
+}
+
+.thumbnail-div {
+    position: relative;
+    width: 100%;
+    height: 13vh;
+    background-color: var(--lighter-gray);
+    border-radius: 10px;
+}
+
+.video-time {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    font-weight: 300;
+    background-color: black;
+    color: white;
+    padding: 2px;
+}
+
+.suggestion-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px;
+    height: 85%;
+}
+
+.suggestion-info p {
+    margin: 0;
+}
+
+.suggestion-title {
+
+}
